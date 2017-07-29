@@ -15251,4 +15251,7 @@ var clm = {
 	}
 };
 
-export default clm;
+module.exports = clm;
+if (typeof window !== 'undefined') {
+	window.clm = clm;
+}
